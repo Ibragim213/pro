@@ -54,45 +54,67 @@
         </div>
   
         <div class="intro_image">
-          <img class="gf" src="Group 1.png" alt="" />
+          <img class="gf" src="img/Group 1.png" alt="" />
         </div>
       </div>
     </section>
-  
 
+<!-- товары в ряд -->
 <section>
-<h1>
-  Новая линия для вашего дома
-</h1>
-
-<div>
-<a href="#"><img src="" alt=""></a>
-<a href="#"><h1></h1></a>
-<a href="#"><p></p></a>
+<h3 class="custom-txt container">Новая линия для вашего дома</h3>
+</section>
+<div class="items container">
+  <div class="item">
+    <div class="bacground">
+      <img src="/img/item1.png" alt="кресло">
+    </div>
+    <p>Кресло "Классик"</p>
+    <p>Кресло с натуральной деревянной основой и экологически чистыми материалами. Его лаконичный дизайн легко впишется в любой интерьер, добавляя ему тепла и уюта.</p>
+  </div>
+  <div class="item">
+    <div class="bacground">
+      <img src="/img/item2.png" alt="кресло">
+    </div>
+    <p>Кресло "Минимал"</p>
+    <p>Классическое кресло с изысканными деталями и комфортной посадкой. Подходит как для домашнего использования, так и для ресторанов или кафе, создавая атмосферу уюта.</p>
+  </div>
+  <div class="item">
+    <div class="bacground">
+      <img src="/img/item3.png" alt="кресло">
+    </div>
+    <p>Кресло "Эко"</p>
+    <p>Современное кресло с простыми линиями и стильным оформлением. Идеально подходит для чтения или отдыха, сочетает в себе функциональность и эстетику.</p>
+  </div>
+  <div class="item">
+    <div class="bacground">
+      <img src="/img/item4.png" alt="диван">
+    </div>
+    <p>Диван "Комфорт"</p>
+    <p>Элегантный и уютный диван с мягкой обивкой, идеально подходит для создания уюта в вашем доме. Удобные подушки и современный дизайн сделают ваш отдых по-настоящему комфортным.</p>
 </div>
-
-<div>
-  <a href="#"><img src="" alt=""></a>
-<a href="#"><h1></h1></a>
-<a href="#"><p></p></a>
 </div>
+</section>
 
-<div>
-  <a href="#"><img src="" alt=""></a>
-  <a href="#"><h1></h1></a>
-  <a href="#"><p></p></a>
-</div>
+<!-- слайдер -->
 
-<div>
-  <a href="#"><img src="" alt=""></a>
-  <a href="#"><h1></h1></a>
-  <a href="#"><p></p></a>
-</div>
-
-
-
+<section style="margin-top: 120px;">
+  <div class="slider-container"> 
+      <div class="slider">
+          <div class="slides">
+              <img src="/img/slider1.png" alt="слайд" class="slide">
+              <img src="/img/item4.png" alt="слайд" class="slide">
+              <img src="/img/item3.png" alt="слайд" class="slide">
+          </div>
+      </div>
+      <button class="prev" onclick="prevSlide()"></button>
+      <button class="next" onclick="nextSlide()"></button>
+      <div class="indicators"></div>
+      <button class="custom-button"><a href="">Перейти</a></button> 
+  </div>
+</section>
+<section style="margin-top: 120px;">
 
 </section>
-    
+<script src="script.js"></script>
 </body>
 </html>
