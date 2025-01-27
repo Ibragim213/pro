@@ -283,7 +283,7 @@ li {
 
 .prev:hover,
 .next:hover {
-  border: 2px solid yellow;
+  border: 2px solid rgb(0, 0, 0);
 }
 
 
@@ -432,7 +432,7 @@ p {
 
 }
 
-.price p:nth-child(2) {
+.price a:nth-child(2) {
   color: rgba(0, 0, 0, 0.52);
   text-decoration: line-through;
 
